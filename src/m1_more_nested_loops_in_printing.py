@@ -55,7 +55,7 @@ def triangle_right_justified(r):
     Precondition:  r is a non-negative integer.
     For purposes of "lining up", assume r is a single digit.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Some tests are already written for you (above).
     #
@@ -73,7 +73,7 @@ def triangle_right_justified(r):
     #   ** You may NOT use string multiplication **
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_triangle_upside_down():
@@ -109,7 +109,7 @@ def triangle_upside_down(r):
     Precondition:  r is a non-negative integer.
     For purposes of "lining up", assume r is a single digit.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #          Some tests are already written for you (above).
     #
@@ -117,7 +117,7 @@ def triangle_upside_down(r):
     #   ** You may NOT use string multiplication **
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_vee():
@@ -160,7 +160,7 @@ def vee(r):
     Precondition:  r is a non-negative integer.
     For purposes of "lining up", assume r is a single digit.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #          Some tests are already written for you (above).
     #
@@ -168,7 +168,7 @@ def vee(r):
     #   ** You may NOT use string multiplication **
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_numbers_constant_forward():
@@ -216,7 +216,7 @@ def numbers_constant_forward(r, maxnum, n):
 
     Preconditions:  r, maxnum and n are positive integers.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #          Some tests are already written for you (above).
     #
@@ -226,7 +226,7 @@ def numbers_constant_forward(r, maxnum, n):
     #   ** You may NOT use string multiplication **
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_numbers_constant_backwards():
@@ -260,7 +260,7 @@ def numbers_constant_backwards(r, maxnum, n):
        777 666 555 444 333 222 111
     Preconditions:  r, maxnum and n are positive integers.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #          Some tests are already written for you (above).
     #
@@ -268,7 +268,7 @@ def numbers_constant_backwards(r, maxnum, n):
     #   ** You may NOT use string multiplication **
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_numbers_increasing_forward():
@@ -312,7 +312,7 @@ def numbers_increasing_forward(r, maxnum):
 
     Preconditions:  r and maxnum are positive integers.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 7. Implement and test this function.
     #          Some tests are already written for you (above).
     #
@@ -320,10 +320,10 @@ def numbers_increasing_forward(r, maxnum):
     #   ** You may NOT use string multiplication **
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()
