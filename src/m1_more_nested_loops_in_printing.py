@@ -10,12 +10,15 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 def main():
     """ Calls the other functions to test them. """
-    run_test_triangle_right_justified()
-    run_test_triangle_upside_down()
-    run_test_vee()
-    run_test_numbers_constant_forward()
-    run_test_numbers_constant_backwards()
-    run_test_numbers_increasing_forward()
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
+    # run_test_triangle_right_justified()
+    # run_test_triangle_upside_down()
+    # run_test_vee()
+    # run_test_numbers_constant_forward()
+    # run_test_numbers_constant_backwards()
+    # run_test_numbers_increasing_forward()
 
 
 def run_test_triangle_right_justified():
@@ -58,21 +61,21 @@ def triangle_right_justified(r):
     # -------------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
     #          Some tests are already written for you (above).
-    #
-    # HINT: Do the following problem FIRST, then convert x's to spaces:
+    #  __
+    #  HINT: Do the following problem FIRST, then convert x's to spaces:
     #          xxxx1
     #          xxx12
     #          xx123
     #          x1234
     #          12345
-    #
-    # HINT: One way to solve this problem is to have TWO inner loops,
-    #       one after the other.
-    #
-    # IMPLEMENTATION RESTRICTION:
-    #   ** You may NOT use string multiplication **
-    #   in this or the other problems in this module, as doing so would
-    #   defeat the goal of providing practice at loops within loops.
+    #  __
+    #  HINT: One way to solve this problem is to have TWO inner loops,
+    #        one after the other.
+    #  __
+    #  IMPLEMENTATION RESTRICTION:
+    #    ** You may NOT use string multiplication **
+    #    in this or the other problems in this module, as doing so would
+    #    defeat the goal of providing practice at loops within loops.
     # -------------------------------------------------------------------------
 
 
@@ -112,11 +115,7 @@ def triangle_upside_down(r):
     # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #          Some tests are already written for you (above).
-    #
-    # IMPLEMENTATION RESTRICTION:
-    #   ** You may NOT use string multiplication **
-    #   in this or the other problems in this module, as doing so would
-    #   defeat the goal of providing practice at loops within loops.
+    #  IMPLEMENTATION RESTRICTION: ** You may NOT use string multiplication **.
     # -------------------------------------------------------------------------
 
 
@@ -163,11 +162,7 @@ def vee(r):
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #          Some tests are already written for you (above).
-    #
-    # IMPLEMENTATION RESTRICTION:
-    #   ** You may NOT use string multiplication **
-    #   in this or the other problems in this module, as doing so would
-    #   defeat the goal of providing practice at loops within loops.
+    #  IMPLEMENTATION RESTRICTION: ** You may NOT use string multiplication **.
     # -------------------------------------------------------------------------
 
 
@@ -219,13 +214,10 @@ def numbers_constant_forward(r, maxnum, n):
     # -------------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #          Some tests are already written for you (above).
-    #
-    # HINT: What loop structure do you need for this problem?
-    #
-    # IMPLEMENTATION RESTRICTION:
-    #   ** You may NOT use string multiplication **
-    #   in this or the other problems in this module, as doing so would
-    #   defeat the goal of providing practice at loops within loops.
+    #  __
+    #  HINT: What loop structure do you need for this problem?
+    #  __
+    #  IMPLEMENTATION RESTRICTION: ** You may NOT use string multiplication **.
     # -------------------------------------------------------------------------
 
 
@@ -263,11 +255,10 @@ def numbers_constant_backwards(r, maxnum, n):
     # -------------------------------------------------------------------------
     # TODO: 6. Implement and test this function.
     #          Some tests are already written for you (above).
-    #
-    # IMPLEMENTATION RESTRICTION:
-    #   ** You may NOT use string multiplication **
-    #   in this or the other problems in this module, as doing so would
-    #   defeat the goal of providing practice at loops within loops.
+    #  __
+    #  HINT: What loop structure do you need for this problem?
+    #  __
+    #  IMPLEMENTATION RESTRICTION: ** You may NOT use string multiplication **.
     # -------------------------------------------------------------------------
 
 
@@ -315,11 +306,10 @@ def numbers_increasing_forward(r, maxnum):
     # -------------------------------------------------------------------------
     # TODO: 7. Implement and test this function.
     #          Some tests are already written for you (above).
-    #
-    # IMPLEMENTATION RESTRICTION:
-    #   ** You may NOT use string multiplication **
-    #   in this or the other problems in this module, as doing so would
-    #   defeat the goal of providing practice at loops within loops.
+    #  __
+    #  HINT: What loop structure do you need for this problem?
+    #  __
+    #  IMPLEMENTATION RESTRICTION: ** You may NOT use string multiplication **.
     # -------------------------------------------------------------------------
 
 
