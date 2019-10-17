@@ -444,12 +444,12 @@ def run_test_first_is_elsewhere_too():
     # Test 5:
     expected = False
     print_expected_result_of_test([(('a', 9),
-                                   (13, 10, 11, 7, 'aa'),
-                                   [11, 12, 3, 10])],
+                                    (13, 10, 11, 7, 'aa'),
+                                    [11, 12, 3, 10])],
                                   expected, test_results, format_string)
     actual = first_is_elsewhere_too((('a', 9),
-                                    (13, 10, 11, 7, '999'),
-                                    [11, 12, 3, 10]))
+                                     (13, 10, 11, 7, '999'),
+                                     [11, 12, 3, 10]))
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 6:
@@ -658,11 +658,11 @@ def run_test_first_is_elsewhere_too():
                                     'oopsie']],
                                   expected, test_results, format_string)
     actual = first_is_elsewhere_too([[(1000 * 'b') + 'cda' + (500 * 'f')],
-                                    (800 * 'b') + '234a',
-                                    'eeee',
-                                    'hello',
-                                    'none',
-                                    'oopsie'])
+                                     (800 * 'b') + '234a',
+                                     'eeee',
+                                     'hello',
+                                     'none',
+                                     'oopsie'])
     print_actual_result_of_test(expected, actual, test_results)
 
     # Test 23:
