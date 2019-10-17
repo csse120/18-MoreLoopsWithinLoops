@@ -7,9 +7,15 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
+import time
+import testing_helper
+
 
 def main():
     """ Calls the other functions to test them. """
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
     run_test_largest_number()
     run_test_largest_negative_number()
     run_test_first_is_elsewhere_too()
@@ -23,9 +29,9 @@ def run_test_largest_number():
     #   Include at least ** 1 ** ADDITIONAL test beyond those we wrote.
     # -------------------------------------------------------------------------
     print()
-    print('-------------------------------------')
+    print('----------------------------------------')
     print('Testing the   LARGEST_NUMBER   function:')
-    print('-------------------------------------')
+    print('----------------------------------------')
 
     # Test 1:
     expected = 13
@@ -373,7 +379,49 @@ def first_is_elsewhere_too(seq_seq):
     # -------------------------------------------------------------------------
 
 
+###############################################################################
+# Our tests use the following to print error messages in red.
+# Do NOT change it.  You do NOT have to do anything with it.
+###############################################################################
+
+def print_expected_result_of_test(arguments, expected,
+                                  test_results, format_string, suffix=''):
+    testing_helper.print_expected_result_of_test(arguments, expected,
+                                                 test_results, format_string,
+                                                 suffix)
+
+
+def print_actual_result_of_test(expected, actual, test_results,
+                                precision=None):
+    testing_helper.print_actual_result_of_test(expected, actual,
+                                               test_results, precision)
+
+
+def print_summary_of_test_results(test_results):
+    testing_helper.print_summary_of_test_results(test_results)
+
+
+# To allow color-coding the output to the console:
+USE_COLORING = True  # Change to False to revert to OLD style coloring
+
+testing_helper.USE_COLORING = USE_COLORING
+if USE_COLORING:
+    # noinspection PyShadowingBuiltins
+    print = testing_helper.print_colored
+else:
+    # noinspection PyShadowingBuiltins
+    print = testing_helper.print_uncolored
+
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
+# The   try .. except   prevents error messages on the console from being
+# intermingled with ordinary output to the console.
 # -----------------------------------------------------------------------------
-main()
+try:
+    main()
+except Exception:
+    print('ERROR - While running this test,', color='red')
+    print('your code raised the following exception:', color='red')
+    print()
+    time.sleep(1)
+    raise
